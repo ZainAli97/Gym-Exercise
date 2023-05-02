@@ -8,8 +8,8 @@ const Navbar = () => (
             direction="row"
             sx={{
                 gap: { sm: "122px", xs: "40px" }, mt: { sm: "32px", xs: "20px" },
-                justifyContent: "space-around"
-            }} >
+                justifyContent: "none"
+            }} px="20px">
             <Link to="/">
                 <img src={Logo} alt="Logo"
                     style={{
